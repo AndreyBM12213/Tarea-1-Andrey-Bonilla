@@ -1,0 +1,1466 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v11.6.1"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 0,
+				"request": {
+					"method": "POST",
+					"url": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.6.1"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "New Request"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 11.837,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8080/producto",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.6.1"
+						}
+					],
+					"queryString": [
+						{
+							"name": "Get All Genres",
+							"value": ""
+						}
+					],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 403,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Length",
+							"value": "0"
+						},
+						{
+							"name": "Date",
+							"value": "Tue, 30 Sep 2025 21:35:36 GMT"
+						}
+					],
+					"content": {
+						"size": 0,
+						"mimeType": "",
+						"text": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 11.837,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "New Request"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 0,
+				"request": {
+					"method": "GET",
+					"url": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/11.6.1"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 0,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"content": {
+						"size": 0,
+						"mimeType": ""
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 0,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "New Request"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 81.41900000000001,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8080/auth/signup",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"andrey\", \n\t\"lastname\": \"bonilla\",\n\t\"email\": \"af12@gmail.com\",\n\t\"password\": \"andrey123\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 03 Oct 2025 07:47:01 GMT"
+						}
+					],
+					"content": {
+						"size": 560,
+						"mimeType": "application/json",
+						"text": "{\"id\":10,\"name\":\"andrey\",\"lastname\":\"bonilla\",\"email\":\"af12@gmail.com\",\"password\":\"$2a$10$.ZgWCysIUjC3WZ7DUrw90u.TcdAW4uRD7HjmGj4Ymixasx29Wc2cm\",\"createdAt\":\"2025-10-03T07:47:01.916+00:00\",\"updatedAt\":\"2025-10-03T07:47:01.916+00:00\",\"role\":{\"id\":1,\"name\":\"USER\",\"description\":\"Default user role\",\"createdAt\":\"2025-09-20T02:25:04.342+00:00\",\"updatedAt\":\"2025-09-20T02:25:04.342+00:00\"},\"enabled\":true,\"authorities\":[{\"authority\":\"ROLE_USER\"}],\"username\":\"af12@gmail.com\",\"orders\":[],\"accountNonLocked\":true,\"accountNonExpired\":true,\"credentialsNonExpired\":true}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 81.41900000000001,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Sign up (no auth)"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 13.126999999999999,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8080/categories",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0Nzc3OTAsImV4cCI6MTc1OTQ4MTM5MH0.C_TFAdvnLUrL_QeqtxJANB0RIRyIBokGc4Rl7jywCE4"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"verduras\",\n\t\"description\": \"solo verduras\"\n}\n"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 03 Oct 2025 07:50:12 GMT"
+						}
+					],
+					"content": {
+						"size": 250,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Category created successfully\",\"data\":{\"id\":5,\"name\":\"verduras\",\"description\":\"solo verduras\",\"products\":null},\"meta\":{\"method\":\"POST\",\"url\":\"http://localhost:8080/categories\",\"totalPages\":0,\"totalElements\":0,\"pageNumber\":0,\"pageSize\":0}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 13.126999999999999,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Post categories"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 24.497999999999998,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8080/products?categoryId=4",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0MzY4NDAsImV4cCI6MTc1OTQ0MDQ0MH0.PKLfEx99QDC34wCJKuty8C2jqhpKz6-nJKBkXDiDJ6I"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"name\": \"pera\",\n  \"description\": \"pera\",\n  \"price\": 100,\n  \"stock\": 10\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 201,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 02 Oct 2025 20:27:56 GMT"
+						}
+					],
+					"content": {
+						"size": 243,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Product created successfully\",\"data\":{\"id\":3,\"name\":\"pera\",\"description\":\"pera\",\"price\":100.0,\"stock\":10},\"meta\":{\"method\":\"POST\",\"url\":\"http://localhost:8080/products\",\"totalPages\":0,\"totalElements\":0,\"pageNumber\":0,\"pageSize\":0}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 24.497999999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Post producto"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 93.903,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8080/admin",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0NzU3MTgsImV4cCI6MTc1OTQ3OTMxOH0.ksP65Gm7cH7tLnw_qK2Hbt0oxeqWTSoTyuu74FPpKpI"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"andrey\", \n\t\"lastname\": \"bonilla\",\n\t\"email\": \"admin344@gmail.com\",\n\t\"password\": \"admin123\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 500,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/problem+json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 03 Oct 2025 07:47:23 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "close"
+						}
+					],
+					"content": {
+						"size": 515,
+						"mimeType": "application/problem+json",
+						"text": "{\"type\":\"about:blank\",\"title\":\"Internal Server Error\",\"status\":500,\"detail\":\"could not execute statement [(conn=16) Duplicate entry 'admin344@gmail.com' for key 'UK_ob8kqyqqgmefl0aco34akdtpe'] [insert into user (created_at,email,lastname,name,password,role_id,updated_at) values (?,?,?,?,?,?,?)]; SQL [insert into user (created_at,email,lastname,name,password,role_id,updated_at) values (?,?,?,?,?,?,?)]; constraint [UK_ob8kqyqqgmefl0aco34akdtpe]\",\"instance\":\"/admin\",\"description\":\"Unknown internal server error.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 93.903,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Add admin (auth as super admin)"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 82.248,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:8080/auth/login",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Basic c3VwZXIuYWRtaW5AZ21haWwuY29tOnN1cGVyYWRtaW4xMjM="
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"email\": \"super.admin@gmail.com\", \n\t\"password\": \"superadmin123\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 03 Oct 2025 07:50:33 GMT"
+						}
+					],
+					"content": {
+						"size": 787,
+						"mimeType": "application/json",
+						"text": "{\"token\":\"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0Nzc4MzMsImV4cCI6MTc1OTQ4MTQzM30.ddpdEk2_O7c31sEtzFah_9PxGW0MvujQD1q5Y5WQr7o\",\"authUser\":{\"id\":1,\"name\":\"Super\",\"lastname\":\"Admin\",\"email\":\"super.admin@gmail.com\",\"password\":\"$2a$10$XYW7zbYH20XkIcXuTgZSF.0kvOIuVAMqbZMW6LDrKDi8QDP8Cqz6y\",\"createdAt\":\"2025-09-20T02:25:04.468+00:00\",\"updatedAt\":\"2025-09-20T02:25:04.468+00:00\",\"role\":{\"id\":3,\"name\":\"SUPER_ADMIN\",\"description\":\"Super Administrator role\",\"createdAt\":\"2025-09-20T02:25:04.367+00:00\",\"updatedAt\":\"2025-09-20T02:25:04.367+00:00\"},\"enabled\":true,\"authorities\":[{\"authority\":\"ROLE_SUPER_ADMIN\"}],\"username\":\"super.admin@gmail.com\",\"orders\":[],\"accountNonLocked\":true,\"accountNonExpired\":true,\"credentialsNonExpired\":true},\"expiresIn\":3600000}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 82.248,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Login User (no auth)"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 21.361,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8080/categories",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0MzY4OTIsImV4cCI6MTc1OTQ0MDQ5Mn0.NGjaKyRhof8YiTulAGbzuGsa6hXWA_YFJP4DLcRmRDg"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 02 Oct 2025 20:28:29 GMT"
+						}
+					],
+					"content": {
+						"size": 322,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Categories retrieved successfully\",\"data\":[{\"id\":4,\"name\":\"verduras\",\"description\":\"solo verduras\",\"products\":[{\"id\":3,\"name\":\"pera\",\"description\":\"pera\",\"price\":100.0,\"stock\":10}]}],\"meta\":{\"method\":\"GET\",\"url\":\"http://localhost:8080/categories\",\"totalPages\":1,\"totalElements\":1,\"pageNumber\":1,\"pageSize\":10}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 21.361,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get  categories"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 30.539,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:8080/products",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "multipart/form-data"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0MzY4OTIsImV4cCI6MTc1OTQ0MDQ5Mn0.NGjaKyRhof8YiTulAGbzuGsa6hXWA_YFJP4DLcRmRDg"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "multipart/form-data",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 02 Oct 2025 20:28:21 GMT"
+						}
+					],
+					"content": {
+						"size": 248,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Products retrieved successfully\",\"data\":[{\"id\":3,\"name\":\"pera\",\"description\":\"pera\",\"price\":100.0,\"stock\":10}],\"meta\":{\"method\":\"GET\",\"url\":\"http://localhost:8080/products\",\"totalPages\":1,\"totalElements\":1,\"pageNumber\":1,\"pageSize\":10}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 30.539,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Get  products"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 21.171,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:8080/products/3?categoryId=4",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0MzY5MzIsImV4cCI6MTc1OTQ0MDUzMn0.1pQLyqXoFUKvRcWTORW-TByCpiAPY6vr4clEMVg7Gaw"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n  \"name\": \"peraaa\",\n  \"description\": \"pera\",\n  \"price\": 100,\n  \"stock\": 10\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 02 Oct 2025 20:29:19 GMT"
+						}
+					],
+					"content": {
+						"size": 246,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Product updated successfully\",\"data\":{\"id\":3,\"name\":\"peraaa\",\"description\":\"pera\",\"price\":100.0,\"stock\":10},\"meta\":{\"method\":\"PUT\",\"url\":\"http://localhost:8080/products/3\",\"totalPages\":0,\"totalElements\":0,\"pageNumber\":0,\"pageSize\":0}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 21.171,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Put Products"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 14.669,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:8080/categories/4",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0MzY5ODMsImV4cCI6MTc1OTQ0MDU4M30.DNkrmI4gRVIsphtgmgDW0sUN2CbPEYMcJBCODYFCC9Q"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"cambio\",\n\t\"description\": \"cambio\"\n}"
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 02 Oct 2025 20:29:56 GMT"
+						}
+					],
+					"content": {
+						"size": 310,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Category updated successfully\",\"data\":{\"id\":4,\"name\":\"cambio\",\"description\":\"cambio\",\"products\":[{\"id\":3,\"name\":\"peraaa\",\"description\":\"pera\",\"price\":100.0,\"stock\":10}]},\"meta\":{\"method\":\"PUT\",\"url\":\"http://localhost:8080/categories/4\",\"totalPages\":0,\"totalElements\":0,\"pageNumber\":0,\"pageSize\":0}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 14.669,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Put categories"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 38.199,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:8080/categories/5",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "multipart/form-data"
+						},
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0Nzc4MzMsImV4cCI6MTc1OTQ4MTQzM30.ddpdEk2_O7c31sEtzFah_9PxGW0MvujQD1q5Y5WQr7o"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "multipart/form-data",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 03 Oct 2025 07:50:44 GMT"
+						}
+					],
+					"content": {
+						"size": 252,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Category deleted successfully\",\"data\":{\"id\":5,\"name\":\"verduras\",\"description\":\"solo verduras\",\"products\":[]},\"meta\":{\"method\":\"DELETE\",\"url\":\"http://localhost:8080/categories/5\",\"totalPages\":0,\"totalElements\":0,\"pageNumber\":0,\"pageSize\":0}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 38.199,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete categories"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 10.005999999999998,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:8080/products/3",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0MzcwMDYsImV4cCI6MTc1OTQ0MDYwNn0.p10jw330V-Y-Gj_SnjBulsd70IA_D0Zb_Z-nTUAjRgM"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 404,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 02 Oct 2025 20:30:36 GMT"
+						}
+					],
+					"content": {
+						"size": 177,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"Product id 3 not found\",\"data\":null,\"meta\":{\"method\":\"DELETE\",\"url\":\"http://localhost:8080/products/3\",\"totalPages\":0,\"totalElements\":0,\"pageNumber\":0,\"pageSize\":0}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 10.005999999999998,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Delete Products"
+			},
+			{
+				"startedDateTime": "2025-10-03T07:51:37.337Z",
+				"time": 68.615,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:8080/users/7",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "User-Agent",
+							"value": "insomnia/9.1.1"
+						},
+						{
+							"name": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzdXBlci5hZG1pbkBnbWFpbC5jb20iLCJpYXQiOjE3NTk0Nzc0MjMsImV4cCI6MTc1OTQ4MTAyM30.qU9mKOtFliRg7IevQWLdriQHGQVDf_9B-htt3uEixYQ"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": ""
+					},
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"response": {
+					"status": 200,
+					"statusText": "",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Vary",
+							"value": "Origin"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Method"
+						},
+						{
+							"name": "Vary",
+							"value": "Access-Control-Request-Headers"
+						},
+						{
+							"name": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"name": "X-XSS-Protection",
+							"value": "0"
+						},
+						{
+							"name": "Cache-Control",
+							"value": "no-cache, no-store, max-age=0, must-revalidate"
+						},
+						{
+							"name": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"name": "Expires",
+							"value": "0"
+						},
+						{
+							"name": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"name": "Date",
+							"value": "Fri, 03 Oct 2025 07:43:56 GMT"
+						}
+					],
+					"content": {
+						"size": 747,
+						"mimeType": "application/json",
+						"text": "{\"message\":\"User deleted successfully\",\"data\":{\"id\":7,\"name\":\"Fabi\",\"lastname\":\"Madrigal\",\"email\":\"fabimadrigal@gmail.com\",\"password\":\"$2a$10$iMm7u86DiiE9rlS49YH6AeobM0Rd7IInKalr2dSSJyx5n.pYnlQ3y\",\"createdAt\":\"2025-10-02T02:12:20.858+00:00\",\"updatedAt\":\"2025-10-02T02:12:20.858+00:00\",\"role\":{\"id\":1,\"name\":\"USER\",\"description\":\"Default user role\",\"createdAt\":\"2025-09-20T02:25:04.342+00:00\",\"updatedAt\":\"2025-09-20T02:25:04.342+00:00\"},\"enabled\":true,\"authorities\":[{\"authority\":\"ROLE_USER\"}],\"username\":\"fabimadrigal@gmail.com\",\"orders\":[],\"accountNonLocked\":true,\"accountNonExpired\":true,\"credentialsNonExpired\":true},\"meta\":{\"method\":\"DELETE\",\"url\":\"http://localhost:8080/users/7\",\"totalPages\":0,\"totalElements\":0,\"pageNumber\":0,\"pageSize\":0}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 68.615,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "Del user (auto set Token)"
+			}
+		]
+	}
+}
