@@ -48,6 +48,7 @@ public class AdminSeeder implements ApplicationListener<ContextRefreshedEvent> {
             return;
         }
 
+
         var user = new User();
         user.setName(superAdmin.getName());
         user.setLastname(superAdmin.getLastname());
